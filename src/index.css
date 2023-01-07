@@ -161,3 +161,23 @@ span {
 .show-notification {
   visibility: visible;
 }
+
+@media (max-width: 900px) {
+  .main {
+    gap: 10rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .main {
+    gap: 10px;
+  }
+
+  .figure-container {
+    padding-left: 8%;
+  }
+
+  .wrong-container {
+    padding-top: 2rem;
+  }
+}
